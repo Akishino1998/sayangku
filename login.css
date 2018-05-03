@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('gambar/t.jpg');
+
+}
+
+#login h1{
+    font-family: 'font1';
+    font-size: 50px;
+    position: absolute;
+    top: 140px;
+    right: 45%;
+
+}
+#login table{
+    position: absolute;
+    top: 250px;
+    right: 45%;
+}
+.text{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    outline: none;
+    border-color: #80c1ff;
+    box-shadow: 5px 5px 20px 1px black;
+    z-index: -1
+}
+.text:hover{
+    border: 2px solid #0084ff;
+}
+th{
+    font-size: 30px;
+    font-family: 'font1';
+    z-index: 1;
+}
+.tombol{
+    margin-top: 0px;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 4px;
+    padding-right: 20px;
+    background-color: #80c1ff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.tombol:hover{
+    background-color: #0084ff;
+        color: white;
+}
+
+@font-face {
+	font-family: 'font1';
+	src : url('font/Cloud Calligraphy - TTF.ttf');
+}

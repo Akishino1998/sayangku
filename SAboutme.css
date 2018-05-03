@@ -1,0 +1,52 @@
+#judul{
+	margin-top: 150px;
+	width: 80%;
+	height: 900px;
+}
+#judul img{
+	background-repeat: no-repeat;
+	width: 80%;
+	height: auto;
+}
+#identitas{
+	margin-top: -320px;
+	background-color: white;
+	margin-right: 18%;
+	margin-left: 18%;
+	
+}
+body{
+	background-color: pink;
+}
+table{
+	text-align: left;
+	width: 600px;
+}
+#identitas h1{
+	font-family: 'font3';
+}
+#identitas h2{
+	font-family: 'font4';
+}
+tr{
+	font-family: 'font4';
+}
+#garishitam{
+	background-color: black;
+	position: absolute;
+	margin-top: -341px;
+	width: 64%;
+	height: 20px;
+	left: 18%;
+	right: 18%;
+	color: white;
+}
+@font-face {
+	font-family: 'font3';
+	src : url('font/Quotus-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'font4';
+	src : url('font/Faune-TextRegular.otf');
+}

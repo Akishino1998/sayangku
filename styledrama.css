@@ -1,0 +1,70 @@
+#badan{
+	background-color: white;
+	width: 80%;
+	height: 1550px;
+	position: absolute;
+	top: 300px;
+	left: 10%;
+	z-index: -1;
+}
+#isi{
+	position: absolute;
+	background-color: white;
+	border: 1px solid #dfdfdf;
+	width: 94%;
+	height: auto;
+	z-index: 2;
+	top : 26px;
+	left: 3%;
+}
+.text{
+	text-align: justify;
+	text-indent: 30px;
+	margin-left: 30px;
+}
+.isipreview{
+	margin: 20px;
+}
+.judulpreview{
+	margin-left: 10px;
+	position: absolute;
+	margin-top: -15px;
+}
+img{
+	width: 300px;
+	height: 250px;
+}
+.tombol{
+	width: 90px;
+	height: 40px;
+	border-radius: 13px;
+	font-family: 'font2';
+	letter-spacing: 1px;
+	font-size: 20px;
+	border-color: #4d94ff;
+	background: #80b3ff;
+	margin-left: 30px;
+	z-index: 5;
+}
+.tombol:hover{
+	background: #0066ff;
+}
+.id_drakor{
+	display: none;
+}
+#footer{
+	position: relative;
+	top: 1750px;
+	text-align: center;
+	float: left;
+	font-family: 'font1';
+	left: 20%;
+	background-color:black;
+	color: white;
+	padding-bottom: 50px;
+	width: 60%;
+	z-index: -1;
+}
+#footer h1{
+	margin-top:20px;
+}
