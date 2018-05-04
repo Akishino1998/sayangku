@@ -8,6 +8,7 @@ if(isset($submit))
     $asal_file = $_FILES['gambar_drakor']['tmp_name'];
 	$nama_file = $_FILES['gambar_drakor']['name'];
     print_r($_FILES);
+
 	move_uploaded_file($asal_file, 'gambar-drakor/'. $nama_file);
     echo '<br>gambar-drakor/'. $nama_file;
     include('koneksi.php');

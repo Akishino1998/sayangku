@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('gambar/t.jpg');
+}
+#kepala{
+	background-color: #1a1a1a;
+	position: absolute;
+	width: 80%;
+	top: 200px;
+	left: 10%;
+	right: 10%;
+}
+#text_cari{
+	position: absolute;
+	top: 14px;
+	right: 3%;
+	width: 140px;
+	height: 30px;
+	font-family: 'font2';
+	font-size: 20px;
+}
+#text_cari:hover{
+	border-color: #3399ff;
+}
+#text_cari:focus{
+	background-color: #dfdfdf;
+}
+#cari{
+	position: absolute;
+	margin-top: -50px;
+	float: right;
+	right: 2%;
+	color: white;
+	cursor: pointer;
+}
+.menu3{
+	text-decoration: none;
+	background-color: #1a1a1a;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 19px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: 'font2';
+}
+.menu2{
+	text-decoration: none;
+	background-color: #1a1a1a;
+	color: white;
+	font-size: 10px;
+	padding-top: 11px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#menu{
+	position: relative;
+	text-align: center;
+}
+.menu2:hover{
+	background-color: #ff4d6a;
+}
+.menu3:hover{
+	background-color: #ff4d6a;
+}
+#nama{
+	margin-top: 70px;
+	color: black;
+	font-family: 'font1';
+	font-size: 50px;
+}
+
+
+
+@font-face {
+	font-family: 'font1';
+	src : url('font/Cloud Calligraphy - TTF.ttf');
+}
+
+@font-face {
+	font-family: 'font2';
+	src : url('font/Old Press Original.otf');
+}

@@ -3,7 +3,7 @@
 <head>
 	<title>Blog | Indah Noordiana Santy</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="SAboutme.css">
+	<link rel="stylesheet" type="text/css" href="Aboutme.css">
 	<link rel="stylesheet" type="text/css" href="styledrama.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 </head>
